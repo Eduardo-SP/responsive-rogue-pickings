@@ -2,6 +2,7 @@
 html {
 	font-size: 16px;
 }
+
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size: .9em;
@@ -15,6 +16,7 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
+
 }
 
 h1,
@@ -42,7 +44,8 @@ h4 {
 }
 
 p {
-	line-height: 2.25em;
+	font-size: 1rem;
+	line-height: 36px;
 }
 
 /******** HEADER STYLES ********/
@@ -54,7 +57,6 @@ header {
 }
 
 header h1 {
-
 	margin: 0;
 	padding: 38px 0 20px 0;
 	border-bottom: 3px solid #77a466;
@@ -66,8 +68,7 @@ header h1 span {
 }
 
 header nav {
-
-	padding: 36px 0;
+	padding: 20px 0;
 }
 
 header nav ul {
@@ -98,7 +99,6 @@ header nav ul li a {
 	border-bottom: 3px solid #77a466;
 }
 
-
 .main-title h2 {
 	color: #45610E;
 	padding: 5px 0;
@@ -111,30 +111,29 @@ header nav ul li a {
 	justify-content: center;
 }
 
-
+.bottom-section .content-wrapper {
+	border-top: 5px solid #EEE;
+	border-bottom: 5px solid #EEE;
+}
 
 .section-one,
 .section-two,
 .section-three {
 	box-sizing: border-box;
-	width: 100%;
-	padding: 0 40px;
 }
 
 .section-one {
+	width: 100%;
+}
+
+.section-two {
 	width: 100%;
 	border-top: 5px solid #EEE;
 	border-bottom: 5px solid #EEE;
 }
 
-.section-two {
-	width: 100%;
-	border-bottom: 5px solid #EEE;
-}
-
 .section-three {
 	width: 100%;
-	border-bottom: 5px solid #EEE;
 }
 
 .bottom-section h3 {
@@ -148,14 +147,13 @@ header nav ul li a {
 
 .menu-list li {
 	color: #45610E;
-	font-size: 16px;
 	line-height: 36px;
+	font-size: 1rem;
 }
 
 /******** FOOTER STYLES ********/
 /* The widths are in a percentage! */
 footer {
-	text-align: center;
 	margin-top: 8px;
 	display: flex;
 	justify-content: center;
@@ -165,5 +163,6 @@ footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #45610E;
-	font-size: .875em;
+	font-size: .875rem;
 }
+
